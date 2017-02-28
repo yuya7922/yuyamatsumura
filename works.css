@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body{
+background: #000A45;
+background: -webkit-gradient(top, #000A45, #0071A2);
+background-size: cover;
+}
+
+a{
+text-decoration:none;
+}
+
+
+div.header{
+height: 140px;
+width: 90%;
+margin: 0 30px 15px;
+border-bottom: 2px solid #FFFFFF;
+}
+
+
+.site-id{
+float: left;
+width: 253px;
+height: 80px;
+margin: 30px 0 0 0;
+font-family: 'Great Vibes', cursive;
+text-align:center;
+font-size: 50px;
+color: #fff;
+text-shadow: 0 0 15px #FFF35F,
+             0 0 10px #FFF98A,
+             0 0 5px #fff;
+}
+
+.global-nav{
+float: right;
+}
+
+.global-nav ul li{
+float: left;
+margin-top:30px;
+color: #FFFFFF;
+list-style-type: none;
+padding: 10px 20px;
+}
+
+.global-nav ul a{
+display:block;
+padding: 10px 15px;
+color: #FFFFFF;
+}
+.global-nav ul a:hover{
+text-shadow: 0 0 15px #FFF35F,
+             0 0 10px #FFF98A,
+             0 0 5px #fff;
+font-size: 18px;
+}
+
+.item-photo{
+margin: 5px,5px,5px,5px;
+}
+
+
+.item-photo img{
+float: left;
+width: 400px;
+height: 300px;
+}
+
+
+.footer{
+clear:both;
+height: 100px;
+width: 90%;
+margin: 0 30px 15px;
+border-top: 2px solid #FFFFFF;
+}
